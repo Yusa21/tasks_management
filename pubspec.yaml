@@ -1,0 +1,25 @@
+name: taks_management
+description: A Flutter tasks app with Floor database
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  floor: ^1.4.2
+  sqflite: ^2.3.0
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  floor_generator: ^1.4.2
+  build_runner: ^2.4.6
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
